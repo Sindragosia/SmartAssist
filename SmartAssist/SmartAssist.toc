@@ -1,0 +1,8 @@
+## Interface: 120005
+## Title: Detourn Cast Macro
+## Notes: Create a macro for detourn to tank
+## Author: Yseri
+## Version: 1.0.0
+
+UpdateVerif.lua
+core/main.lua
