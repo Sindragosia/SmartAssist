@@ -4,7 +4,7 @@ Addon WoW privé.
 
 ## Installation
 1. Télécharger la dernière version :
-https://github.com/
+https://github.com/Sindragosia/SmartAssist/releases/latest
 
 2. Extraire dans :
 World of Warcraft/_retail_/Interface/AddOns/
