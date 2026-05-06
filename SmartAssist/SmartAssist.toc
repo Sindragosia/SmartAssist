@@ -1,6 +1,6 @@
-## Interface: 120005
-## Title: Detourn Cast Macro
-## Notes: Create a macro for detourn to tank
+## Interface: 120007
+## Title: Smart Assist
+## Notes 
 ## Author: Yseri
 ## Version: 1.0.0
 
