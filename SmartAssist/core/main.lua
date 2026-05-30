@@ -1,5 +1,10 @@
 SLASH_CASTTANK1 = "/casttank"
 
+local _, ns = ...
+local L = ns.L
+
+print(L.NO_TANK)
+
 SlashCmdList["CASTTANK"] = function()
   local macroName = "DetournTank"
   local icon = "INV_MISC_QUESTIONMARK"
