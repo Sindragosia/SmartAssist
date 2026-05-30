@@ -5,7 +5,7 @@
 ## Version: 1.0.0
 
 UpdateVerif.lua
-core/Languages.lua
+core/Language.lua
 core/main.lua
 core/Locales.lua
 core/Petstatus.lua
