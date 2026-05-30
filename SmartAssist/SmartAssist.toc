@@ -6,3 +6,5 @@
 
 UpdateVerif.lua
 core/main.lua
+core/Locales.lua
+core/Petstatus.lua
