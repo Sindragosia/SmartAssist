@@ -1,6 +1,6 @@
 local addonName = ...
 
-local CURRENT_VERSION = "1.0.0"
+local CURRENT_VERSION = "1.0.1"
 local UPDATE_URL = "https://github.com/Sindragosia/SmartAssist/releases/latest"
 
 local frame = CreateFrame("Frame")
