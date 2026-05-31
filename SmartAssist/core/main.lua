@@ -1,4 +1,5 @@
 SLASH_CASTTANK1 = "/casttank"
+SLASH_PETALERT1 = "/petalert"
 
 local _, ns = ...
 local L = ns.L
@@ -54,4 +55,38 @@ end
   if not found then
     print(L.NO_TANK)
   end
+end
+
+SlashCmdList["PETALERT"] = function(msg)
+    msg = string.lower(msg or "")
+
+    local command, value = msg:match("^(%S*)%s*(.-)$")
+
+    if command == "lock" then
+        ns.PetAlert.Lock()
+
+    elseif command == "unlock" then
+        ns.PetAlert.Unlock()
+
+    elseif command == "reset" then
+        ns.PetAlert.Reset()
+
+    elseif command == "scale" then
+        ns.PetAlert.Scale(value)
+
+    elseif command == "test" then
+        ns.PetAlert.Test()
+
+    elseif command == "sound" then
+        ns.PetAlert.ToggleSound()
+
+    else
+        print("PetAlert commands:")
+        print("/petalert unlock")
+        print("/petalert lock")
+        print("/petalert reset")
+        print("/petalert scale 1.2")
+        print("/petalert test")
+        print("/petalert sound")
+    end
 end

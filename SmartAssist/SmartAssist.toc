@@ -4,8 +4,11 @@
 ## Author: Yseri
 ## Version: 1.0.0
 
-UpdateVerif.lua
+# SavedVariables: PetAlertDB
+
+Update.lua
 core/Language.lua
 core/main.lua
 core/Locales.lua
 core/Petstatus.lua
+core/PetAlert/lua
